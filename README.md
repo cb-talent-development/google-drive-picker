@@ -1,14 +1,14 @@
 # Google Drive Picker
 
-Promise-based wrapping of [Google's Picker API](docs).
+Promise-based wrapping of [Google's Picker API][docs].
 
-Google's JS client library requires [a lot of callbacks](picker_hiworld) to load necessary APIs, authorize and build a Google Drive file picker. This project eliminates that boilerplate, wrapping functions in [ES6 Promises](promise).
+Google's JS client library requires [a lot of callbacks][picker_hiworld] to load necessary APIs, authorize and build a Google Drive file picker. This project eliminates that boilerplate, wrapping functions in [ES6 Promises][promise].
 
 ## Use
 
-Before using the library you will need to create a project through the [Google Developer Console](console), enable the **Google Picker API** and create credentials for OAuth and Public API access.
+Before using the library you will need to create a project through the [Google Developer Console][console], enable the **Google Picker API** and create credentials for OAuth and Public API access.
 
-Required: Google's API loaded (https://apis.google.com/js/api.js) and [Promise support](caniuse_promise) or a [polyfill](polyfill).
+Required: Google's API loaded (https://apis.google.com/js/api.js) and [Promise support][caniuse_promise] or a [polyfill][polyfill].
 
 ```js
 // Build a picker
@@ -25,7 +25,7 @@ picker.pick()
       });
 ```
 
-Detailed configuration can be performed through a function that is yielded a `PickerBuilder` instance. See the [Google Picker API documentation](docs) for further information.
+Detailed configuration can be performed through a function that is yielded a `PickerBuilder` instance. See the [Google Picker API documentation][docs] for further information.
 
 ```js
 var picker = new GoogleDrivePicker({
