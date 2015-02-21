@@ -1,0 +1,26 @@
+{
+  "name": "google-drive-picker",
+  "main": [
+    "google-drive-picker.js",
+    "google-drive-picker.min.js"
+  ],
+  "version": "0.0.1",
+  "authors": [
+    "Bennett Goble <nivardus@gmail.com>"
+  ],
+  "description": "Promise-based wrapping of Google's Picker API",
+  "keywords": [
+    "wrapper",
+    "google",
+    "promise"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nivardus/google-drive-picker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
