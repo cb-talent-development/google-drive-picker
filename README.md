@@ -44,4 +44,4 @@ var picker = new GoogleDrivePicker({
 [console]: https://console.developers.google.com/
 [promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 [caniuse_promise]: http://caniuse.com/#feat=promises
-[polyfill]: https://github.com/getify/native-promise-only
+[polyfill]: https://cdn.polyfill.io/v1/docs/
