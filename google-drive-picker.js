@@ -1,4 +1,4 @@
-/* GoogleDrivePicker v0.0.1, @license MIT, (c) 2015 Bennett Goble */
+/* GoogleDrivePicker v0.0.2, @license MIT, (c) 2015 Bennett Goble */
 
 (function() {
   /**
