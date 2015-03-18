@@ -138,8 +138,6 @@
       var picker = this._createPicker(opts.config, function(data) {
         if (data.action == google.picker.Action.PICKED) {
           resolve(data);
-        } else {
-          reject(data);
         }
       });
 
